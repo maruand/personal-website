@@ -53,3 +53,17 @@ body {
     background: #333;
     color: #fff;
   }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Left section is twice as wide as the right */
+    gap: 20px; /* Adds spacing between the sections */
+  }
+  
+  .left, .right {
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Adds a border for better visibility */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
